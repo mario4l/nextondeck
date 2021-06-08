@@ -1,8 +1,14 @@
+import { Container, Row, Col } from 'react-bootstrap';
+
 const Footer = () => {
   return (
-    <>
-      <h2>Footer</h2>
-    </>
+    <footer>
+      <Container>
+        <Row>
+          <Col className="text-center py-3">Copyright &copy; Nextondeck</Col>
+        </Row>
+      </Container>
+    </footer>
   );
 };
 
